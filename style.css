@@ -2,8 +2,10 @@
   display: grid;
   width: 826px;
   height: 936px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: .28fr .23fr .23fr .28fr;
+  grid-template-rows: .18fr .18fr .46fr .18fr;
 }
 
 .box {
